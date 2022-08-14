@@ -57,42 +57,43 @@ p {
     margin-bottom: 5.625rem;
 }
 
-button {
+a {
     font-family: var(--lexend-deca);
     font-size: 0.9375rem;
     background-color: var(--very-light-gray);
     padding: 0.625rem 1.25rem;
     border-radius: 1.75rem;
     border: 0.125rem solid var(--very-light-gray);
+    text-decoration: none;
     transition: background-color 0.15s, color 0.15s, cursor 0.15s;
 }
 
-#sedans button {
+#sedans a {
     color: var(--bright-orange);
 }
 
-#sedans button:hover {
+#sedans a:hover {
     background-color: var(--bright-orange);
     color: var(--very-light-gray);
     cursor: pointer;
 }
 
-#suvs button {
+#suvs a {
     color: var(--dark-cyan);
 }
 
-#suvs button:hover {
+#suvs a:hover {
     background-color: var(--dark-cyan);
     color: var(--very-light-gray);
     cursor: pointer;
 }
 
 
-#luxury button {
+#luxury a {
     color: var(--very-dark-cyan);
 }
 
-#luxury button:hover {
+#luxury a:hover {
     background-color: var(--very-dark-cyan);
     color: var(--very-light-gray);
     cursor: pointer;
