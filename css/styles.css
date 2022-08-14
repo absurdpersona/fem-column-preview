@@ -13,6 +13,10 @@ body {
     background-color: var(--very-light-gray);
 }
 
+#cards {
+    display: flex;
+}
+
 .column {
     width: 18.75rem;
     height: 33.75rem;
