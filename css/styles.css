@@ -28,6 +28,10 @@ body {
     background-color: var(--dark-cyan);
 }
 
+#suvs p, #luxury p {
+    width: 13.125rem;
+}
+
 #luxury {
     background-color: var(--very-dark-cyan);
     border-radius: 0 3% 3% 0;
@@ -88,6 +92,31 @@ button {
     background-color: var(--very-dark-cyan);
     color: var(--very-light-gray);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 23.5rem) {
+    body {
+        display: block;
+        padding-top: 5.625rem;
+    }
+
+    .column {
+        margin: auto;
+        height: 28.125rem;
+        padding: 2.5rem 3.125rem;
+    }
+
+    #sedans {
+        border-radius: 3% 3% 0 0;
+    }
+
+    #luxury {
+        border-radius: 0 0 3% 3%;
+    }
+
+    p {
+        margin-bottom: 1.875rem;
+    }
 }
 
 :root {
