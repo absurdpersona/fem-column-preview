@@ -105,6 +105,10 @@ a {
         padding-top: 5.625rem;
     }
 
+    #cards {
+        display: block;
+    }
+
     .column {
         margin: auto;
         height: 28.125rem;
